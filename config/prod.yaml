@@ -1,0 +1,7 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  group_id: "video-group"
+  auto_offset_reset: "earliest"
+
+topic:
+  frames_consumer : "abcd"
